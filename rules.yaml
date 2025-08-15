@@ -1,0 +1,7 @@
+# Simple certification rules
+unused_days_threshold: 90
+criticality_whitelist: ["CRITICAL", "HIGH"]   # unused but critical/high will be flagged instead of auto-revoked
+sod_conflicts:
+  - ["PAYMENTS_REQUESTER", "PAYMENTS_APPROVER"]
+  - ["USER_ADMIN", "AUDITOR"]
+timebound_grace_days: 7
