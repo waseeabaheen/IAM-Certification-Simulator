@@ -1,9 +1,7 @@
-# IAM Certification Simulator (SailPoint-style) 🔐
+# IAM Certification Simulator 🔐
 
-A **simple but realistic** Access Certification automation project that simulates reviewing **700+ entitlements**
+A simple Access Certification automation project that simulates reviewing **700+ entitlements**
 and producing certification decisions (Approve/Revoke/Flag) with explanations. Built in Python, file-based, no external deps.
-
-**Why this exists:** To back up a CV bullet like _"Automated certification for 700+ entitlements, cutting manual review by ~50%"_ with a runnable repo.
 
 ---
 
@@ -48,4 +46,4 @@ README.md
 ## Notes
 - This is a **simulation** (no SailPoint API). The inputs/logic mirror common certification workflows.
 - Extend `rules.yaml` and re-run to see how automation rates change.
-- All data is fake/anonymized for portfolio use.
+- All data is anonymized for portfolio use.
